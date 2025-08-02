@@ -18,23 +18,31 @@
         android:layout_marginBottom="32dp"/>
 
     <Button
+        android:fontFamily="@font/kantumruy_pro_medium"
         android:id="@+id/btnLogin"
         android:layout_marginBottom="16dp"
         android:text="Login"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
 
     <Button
+        android:fontFamily="@font/kantumruy_pro_medium"
         android:id="@+id/btnRegister"
         android:layout_marginBottom="16dp"
         android:text="Register"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
 
-    <!-- 👇 New Button to Open EmployeeActivity -->
     <Button
+        android:fontFamily="@font/kantumruy_pro_medium"
         android:id="@+id/btnGoToEmployee"
         android:text="Employee Management"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
 </LinearLayout>
